@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Student_JobNum"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="学工号"
+            />
+        <EditText
+            android:id="@+id/PhoneNum"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="手机号"
+            />
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="用户名"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="邮箱"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/PassWord"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="密码"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/Comfirm"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="再次输入密码"
+            android:inputType="textPassword" />
+        <RadioGroup
+            android:id="@+id/rg"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男" />
+            <RadioButton
+                android:id="@+id/femle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="女"/>
+        </RadioGroup>
+        <RadioGroup
+            android:id="@+id/role"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/teacher"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="教师" />
+            <RadioButton
+                android:id="@+id/student"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="学生"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="提交" />
+    </LinearLayout>
+</LinearLayout>

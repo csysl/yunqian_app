@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/qiandao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_marginLeft="42dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/qiandao"
+                />
+
+            <TextView
+                android:id="@+id/join_signin"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:text="参与签到"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/heart_card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_marginLeft="42dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/card"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:text="心意卡片"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/groupplan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_marginLeft="42dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/collect"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:text="小组方案"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="成员总数"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/count_member"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="人数具体设置"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/banke_member"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></ListView>
+
+    
+
+</LinearLayout>

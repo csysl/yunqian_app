@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="@color/tabBackGround"
+    >
+    <LinearLayout
+        android:id="@+id/tab_member"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_member"
+            style="@style/menuIconStyle"
+            android:src="@drawable/member" />
+
+        <TextView
+            style="@style/menuTextStyle"
+            android:text="成员" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_activity"
+            style="@style/menuIconStyle"
+            android:src="@drawable/activity" />
+
+        <TextView
+            style="@style/menuTextStyle"
+            android:text="活动" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_detail"
+            style="@style/menuIconStyle"
+            android:src="@drawable/detail" />
+
+        <TextView
+            style="@style/menuTextStyle"
+            android:text="详情" />
+    </LinearLayout>
+</LinearLayout>
